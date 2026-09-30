@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0e0b" />
+    <meta name="description" content="I'm Neapolitan. Take a look at the Roblox worlds, 3D models and artwork I've made for games." />
+    <title>Neapolitan Roblox Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Neapolitan, back to top"><span class="brand-mark">N<span>.</span></span><span class="brand-name">NEAPOLITAN<br /><small>ROBLOX BUILDER</small></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#work">See my work <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span><span></span></button>
+    </header>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow">ROBLOX BUILDER</div>
+          <h1 id="hero-title">I build worlds<br />to get <em>lost in.</em></h1>
+          <p>I'm Neapolitan. I build Roblox places and the things that fill them. I like adding the details that make players want to look around.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#work">See my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A bit about me <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-foot"><span>OVER 3 YEARS MAKING GAMES</span><span>BUILDS, MODELS AND ARTWORK</span></div>
+        </div>
+        <div class="hero-visual">
+          <img src="imgs/contruction/Captura%20de%20tela%202026-07-05%20000041.png" alt="Floating island environment with stone arches and trees above the clouds" fetchpriority="high" />
+          <div class="hero-image-label"><span>A WORLD IN THE MAKING</span><span>See more builds <span aria-hidden="true">↗</span></span></div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Areas of work"><span>WHAT I LOVE MAKING</span><div><span>ROBLOX WORLDS</span><span>3D MODELS</span><span>ARTWORK FOR GAMES</span></div></section>
+
+      <section class="featured section-wrap" aria-labelledby="featured-title">
+        <div class="section-heading"><div><span class="section-kicker">A FEW FAVORITES</span><h2 id="featured-title">A little of<br />what I <em>make.</em></h2></div><p>From big worlds to small details, these are some of the things I enjoy creating.</p></div>
+        <div class="featured-grid">
+          <a class="feature-card feature-card-large" href="#work" data-filter-link="builds"><img src="imgs/contruction/IMG-20250908-WA00161.jpg" alt="Moonlit purple castle environment" loading="lazy" /><span class="feature-shade"></span><span class="feature-meta"><span><small>ENVIRONMENTS</small><strong>Worlds to wander through</strong></span><span class="feature-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="feature-card" href="#work" data-filter-link="models"><img src="imgs/model/IMG-20260609-WA0008.jpg" alt="Stylized robot and scientist character models" loading="lazy" /><span class="feature-shade"></span><span class="feature-meta"><span><small>3D MODELS</small><strong>Characters with personality</strong></span><span class="feature-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="feature-card" href="#work" data-filter-link="graphics"><img src="imgs/icons%20and%20thumbnails/RunesThumb_20260820_155854_0000.png" alt="Colorful sun and moon themed Roblox game thumbnail" loading="lazy" /><span class="feature-shade"></span><span class="feature-meta"><span><small>ARTWORK</small><strong>Art that tells a story</strong></span><span class="feature-arrow" aria-hidden="true">↗</span></span></a>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-wrap">
+          <div class="section-heading work-heading"><div><span class="section-kicker">TAKE A LOOK</span><h2 id="work-title">More of my <em>work.</em></h2></div><p>Here are the builds, models, thumbnails and logos I've chosen to share.</p></div>
+          <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter portfolio"><button type="button" class="filter active" data-filter="all" aria-pressed="true">Everything <span>29</span></button><button type="button" class="filter" data-filter="builds" aria-pressed="false">Builds <span>11</span></button><button type="button" class="filter" data-filter="models" aria-pressed="false">Models <span>14</span></button><button type="button" class="filter" data-filter="graphics" aria-pressed="false">Artwork <span>4</span></button></div><span class="gallery-count" id="gallery-count" aria-live="polite">Showing all 29 pieces</span></div>
+          <div class="gallery" id="gallery" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+        <div class="about-heading"><span class="section-kicker">A BIT ABOUT ME</span><h2 id="about-title">Hi, I'm<br /><em>Neapolitan.</em></h2></div>
+        <div class="about-copy"><p class="about-lead">I've been building for Roblox games for over three years. Environments and assets are what I enjoy most.</p><p>I also make 3D models, thumbnails and logos. When a project needs an extra hand, I can help with animations and basic game engineering too.</p><p>I keep this portfolio focused on the projects that best show what I do. I care about working with good people and making the team a positive place to be. Creating games has been a dream of mine since I was a kid, and it still feels just as exciting.</p><div class="about-tags"><span>ENVIRONMENT BUILDING</span><span>3D MODELING</span><span>THUMBNAILS & LOGOS</span><span>ANIMATION</span><span>GAME ENGINEERING SUPPORT</span></div></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-wrap contact-inner">
+          <div><span class="section-kicker">LET'S TALK</span><h2 id="contact-title">Let's make<br /><em>something.</em></h2></div>
+          <div class="contact-copy">
+            <p>Got a Roblox game in the works? I'd love to hear what you're making and how I can help.</p>
+            <div class="contact-links" aria-label="Contact and social profiles">
+              <a class="contact-card" href="https://x.com/TheNeapolitann" target="_blank" rel="noopener noreferrer"><span>X (Twitter)</span><strong>@TheNeapolitann</strong><small>Visit profile ↗</small></a>
+              <a class="contact-card" href="https://www.roblox.com/pt/users/1016292619/profile" target="_blank" rel="noopener noreferrer"><span>Roblox</span><strong>My Roblox profile</strong><small>Visit profile ↗</small></a>
+              <a class="contact-card" href="https://www.tiktok.com/@theneapolitann" target="_blank" rel="noopener noreferrer"><span>TikTok</span><strong>@theneapolitann</strong><small>Visit profile ↗</small></a>
+              <button class="contact-card discord-card" id="copy-discord" type="button" aria-label="Copy Discord username theneapolitanman"><span>Discord</span><strong>theneapolitanman</strong><small id="discord-status" aria-live="polite">Copy username</small></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap"><a class="footer-brand" href="#top">NEAPOLITAN<span>.</span></a><span>THANKS FOR STOPPING BY</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Portfolio image viewer"><button class="lightbox-close" type="button" aria-label="Close image viewer">×</button><div class="lightbox-frame"><img id="lightbox-image" alt="" /><div class="lightbox-info"><div><span id="lightbox-category"></span><h3 id="lightbox-title"></h3></div><span id="lightbox-counter"></span></div></div><button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image">←</button><button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image">→</button></dialog>
+  </body>
+</html>
